@@ -1,0 +1,197 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj's Portfolio</title>
+    
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body id="body" style="background-image:url('{% static 'image/pagebg.jpg' %}'); background-repeat:no-repeat; background-size: 100%; ">
+    <div class="container" >
+        <div class="row1">
+            <div class="img">
+                <img src="{% static 'image/raaj.png' %}">
+               
+            </div>
+            <h1>Suraj Yadav</h1>
+
+            <h2>Developer</h2>
+            <div class="social">
+                <a href="" style="color: #1B74E4; "><i style="padding: 8px 12px;" class="fa-brands fa-facebook-f"></i></a>
+                <a href="" style="color: rgb(200, 30, 92);"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" style="color: #1B74E4; "><i class="fa-brands fa-linkedin"></i></a>
+                <a href="" style="color: #2367ba;"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+
+            <div class="contact">
+                <div class="flex">
+                    <i class="fa-solid fa-mobile"></i>
+                    <div class="details">
+                        <p>Phone</p>
+                        <p>8009839969</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="flex">
+                    <i class="fa-solid fa-envelope"></i> 
+                    <div class="details">
+                        <p>Email</p>
+                        <p>sooraj7151@gmail.com</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="flex">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="details">
+                        <p>Location</p>
+                        <p>Airoli,Navi Mumbai</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="flex">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <div class="details">
+                        <p>DOB</p>
+                        <p>26/10/2000</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="btn">
+                <button>Download Resume</button>
+            </div>
+        </div>
+        <div class="row2">
+            <section class="midSection">
+                <div class="heading">
+                    <h1>Projects</h1>
+                </div>
+
+                <!-- What I DO Section -->
+                <div class="work">
+                    <div class="cardContainer">
+                        <div class="card pink">
+                            <div class="cardDetail">
+                                <div class="img1" style="background-image: url({% static 'image/clomonk.png' %}); background-repeat: no-repeat; background-size: cover;">
+                                   
+                                </div>
+                                
+                            </div>
+                            <h3>
+                               Clomonk Home Page
+                               </h3>
+                        </div>
+
+                        <div class="card blue">
+                            <div class="cardDetail">
+                                <div class="icon">
+                                    <i class="fa-brands fa-uikit"></i>
+                                </div>
+                                <div >
+                                    <h3>UI/UX Design</h3>
+                                <p>
+                                    I create engaging and user-friendly interfaces, blending creativity with usability to deliver exceptional digital experiences.
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card blue">
+                            <div class="cardDetail">
+                                <div class="icon">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                                <div >
+                                    <h3>Web Development</h3>
+                                <p>
+                                    I'm a dedicated web developer who crafts intuitive and responsive web applications using the latest technologies and frameworks.
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card pink">
+                            <div class="cardDetail">
+                                <div class="icon">
+                                    <i class="fa-brands fa-uikit"></i>
+                                </div>
+                                <div >
+                                    <h3>UI/UX Design</h3>
+                                <p>
+                                    I create engaging and user-friendly interfaces, blending creativity with usability to deliver exceptional digital experiences.
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card pink">
+                            <div class="cardDetail">
+                                <div class="icon">
+                                    <i class="fa-brands fa-uikit"></i>
+                                </div>
+                                <div >
+                                    <h3>UI/UX Design</h3>
+                                <p>
+                                    I create engaging and user-friendly interfaces, blending creativity with usability to deliver exceptional digital experiences.
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card blue">
+                            <div class="cardDetail">
+                                <div class="icon">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                                <div >
+                                    <h3>Web Development</h3>
+                                <p>
+                                    I'm a dedicated web developer who crafts intuitive and responsive web applications using the latest technologies and frameworks.
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row3">
+            <div class="listContainer">
+                <ul>
+                    <li>
+                        <a href="about">
+                            <i class="fa-solid fa-user"></i>
+                            <h3>About</h3>
+                        </a>
+                        
+                    </li>
+                    <li> 
+                        <a href="project">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <h3>Projects</h3>
+                    </a>
+                </li>
+                    <li>
+                        <a href="resume">
+                            <i class="fa-regular fa-file"></i>
+                            <h3>Resume</h3>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="contact">
+                            <i class="fa-solid fa-address-book"></i>
+                            <h3>Contact Me</h3>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2ae2e29bb9.js" crossorigin="anonymous"></script>
+</body>
+</html>
